@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*outline: .5px solid red;*/
+}
+body{	background: radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+	radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+	radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+	radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+	radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%),
+
+	radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+	radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+	radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+	radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+	radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%) 50px 50px;
+	background-color:#b03;
+	background-size:100px 100px;
+}
+div{
+	display: inline-block;
+}
+.container{
+	display: block;
+	width: 95%;
+	background: white;
+	margin: 0 auto;
+}
+.header{
+	height: 300px;
+	background: #F2BAC9;
+	border-bottom: 5px solid black;
+}
+.header img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;*/
+}
+.section .fila1{
+	/*border: 3px solid black;*/
+	width: 250px;
+	height: 350px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.section .fila1 img{
+	border: 3px solid black;
+	width: 248px;
+	height: 348px;
+	object-fit: cover;
+	transition:all .7s ease-in-out;
+}
+.fila1 img:hover{
+	-webkit-transform:scale(1.1);transform:scale(1.1);
+	border: 3px solid black;
+}
+.section .precio{
+	position: absolute;
+	background: black;
+	width: 260px;
+	height: 40px;
+	font-family: consolas, roboto, arial;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	margin-left: -255px;
+	margin-top: 360px;
+}
+footer{
+	width: 100%;
+	background: #F2BAC9;
+	height: 15px;
+	border-top: 5px solid black;
+	padding-top: 10px;
+}
+footer p{
+	text-align: center;
+	font-size: 12px;
+	line-height: 10px;
+}
